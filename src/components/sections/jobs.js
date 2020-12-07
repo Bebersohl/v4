@@ -151,6 +151,12 @@ const StyledTabContent = styled.div`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
   }
+
+  .job-type {
+    margin-bottom: 10px;
+    color: var(--slate);
+    font-size: var(--fz-md);
+  }
 `;
 
 const Jobs = () => {
@@ -168,6 +174,7 @@ const Jobs = () => {
               location
               range
               url
+              type
             }
             html
           }
@@ -249,7 +256,7 @@ const Jobs = () => {
         {jobsData &&
           jobsData.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { title, url, company, range } = frontmatter;
+            const { title, url, company, range, type } = frontmatter;
 
             return (
               <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -268,6 +275,7 @@ const Jobs = () => {
                         {company}
                       </a>
                     </span>
+                    {type === 'contract' && <span className="job-type">&nbsp;(Contract)</span>}
                   </h3>
 
                   <p className="range">{range}</p>
