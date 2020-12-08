@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -154,7 +154,7 @@ const Projects = () => {
     }
   `);
 
-  const [showMore, setShowMore] = useState(false);
+  const [showMore /*, setShowMore */] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
@@ -173,10 +173,6 @@ const Projects = () => {
   return (
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
 
       <TransitionGroup className="projects-grid">
         {projectsToShow &&
@@ -205,12 +201,20 @@ const Projects = () => {
                         </div>
                         <div className="project-links">
                           {github && (
-                            <a href={github} aria-label="GitHub Link">
+                            <a
+                              href={github}
+                              aria-label="GitHub Link"
+                              target="_blank"
+                              rel="noopener noreferrer">
                               <Icon name="GitHub" />
                             </a>
                           )}
                           {external && (
-                            <a href={external} aria-label="External Link">
+                            <a
+                              href={external}
+                              aria-label="External Link"
+                              target="_blank"
+                              rel="noopener noreferrer">
                               <Icon name="External" />
                             </a>
                           )}
@@ -241,9 +245,9 @@ const Projects = () => {
           })}
       </TransitionGroup>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
+      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
-      </button>
+      </button> */}
     </StyledProjectsSection>
   );
 };
