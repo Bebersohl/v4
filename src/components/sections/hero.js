@@ -51,10 +51,7 @@ const Hero = () => {
   const two = <h2 className="big-heading">Brandon Ebersohl.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
-    <p>
-      I'm a software engineer based in Fairbanks, AK specializing in building exceptional websites,
-      applications, and everything in between.
-    </p>
+    <p>I'm a front end engineer specializing in building exceptional websites and mobile apps.</p>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">

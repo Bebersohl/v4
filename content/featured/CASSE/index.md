@@ -10,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-Up to the minute risk analysis tool that integrates many different layers of data with toggleable switches.
+Up to the minute risk analysis tool that integrates many different layers of data that can be mixed and matched.
