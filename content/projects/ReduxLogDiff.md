@@ -1,8 +1,7 @@
 ---
 date: '2017'
 title: 'Redux Log Diff'
-github: 'https://github.com/Bebersohl/Memento-Mori-Calendar'
-external: https://memento-mori-calendar-gftphxkn8.vercel.app/
+github: 'https://github.com/Bebersohl/redux-log-diff'
 tech:
   - Redux
   - JavaScript
