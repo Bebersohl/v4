@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bebersohl',
+      url: 'https://www.linkedin.com/in/brandon-ebersohl-626672194/',
     },
     // {
     //   name: 'Codepen',
