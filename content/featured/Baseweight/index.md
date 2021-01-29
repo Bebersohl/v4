@@ -3,7 +3,7 @@ date: '2019'
 title: 'Baseweight.net'
 cover: './demo.png'
 github: 'https://github.com/bebersohl/baseweight'
-external: 'https://baseweight.net'
+external: 'https://baseweight-prod.web.app/'
 tech:
   - React.js
   - Material-UI
