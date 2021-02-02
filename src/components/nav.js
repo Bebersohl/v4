@@ -192,8 +192,8 @@ const Nav = ({ isHome }) => {
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                   <a
-                    href="/resume.pdf"
                     className="resume-button"
+                    href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
                     Resume
