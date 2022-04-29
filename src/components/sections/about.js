@@ -139,6 +139,8 @@ const About = () => {
     'JavaScript (ES6+)',
     'HTML & CSS',
     'Node.js',
+    'Next.js',
+    'Tailwind CSS',
   ];
 
   return (
