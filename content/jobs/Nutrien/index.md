@@ -8,6 +8,6 @@ url: 'https://www.nutrien.com/'
 type: 'contract'
 ---
 
-- Built cross platform component library that supports IOS, Android and Web and is used across all Nutrien engineering projects.
-- Created an apollo server backend to handle large customer financial transactions.
-- Joined fintech project and implemented new customer payment flow under tight 6 month deadline.
+- Built cross-platform React Native component library that supports both mobile and web and is utilized across all Nutrien projects.
+- Created subgraph in federated Apollo server to consume an Express REST API that handles large financial transactions.
+- Added SVG icon micro-frontend to Lerna monorepo to facilitate icon usage across all Nutrien projects.

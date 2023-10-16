@@ -153,7 +153,7 @@ const About = () => {
             <p>Hello!</p>
 
             <p>
-              I’m Brandon, an experienced fullstack engineer dedicated to creating web and mobile
+              I’m Brandon, an experienced full stack engineer dedicated to creating web and mobile
               apps with intuitive designs and dynamic user experiences. I have a long history of
               successfully completing contracts and can hit the ground running on any new projects.
             </p>
