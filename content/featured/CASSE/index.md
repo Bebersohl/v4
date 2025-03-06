@@ -2,7 +2,7 @@
 date: '2020'
 title: 'CASSE'
 cover: './demo.png'
-external: 'https://casse.ai/demo.html?covid_risk=three_day_risk'
+external: 'https://casse.vercel.app/?covid_risk=three_day_risk'
 tech:
   - Next.js
   - Mapbox

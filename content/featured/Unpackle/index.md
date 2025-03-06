@@ -2,7 +2,7 @@
 date: '2022'
 title: 'Unpackle.com'
 cover: './demo-unpackle.png'
-external: 'https://Unpackle.com'
+external: 'https://unpackle.vercel.app/'
 tech:
   - Next.js
   - Tailwind CSS
