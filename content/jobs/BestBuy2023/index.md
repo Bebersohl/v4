@@ -3,7 +3,7 @@ date: '2023'
 title: 'Senior Full Stack Engineer'
 company: 'Best Buy'
 location: 'Remote'
-range: '2022 - Present'
+range: '2022 - 2025'
 url: 'https://www.bestbuy.com/'
 type: 'contract'
 ---
