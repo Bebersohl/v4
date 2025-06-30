@@ -150,17 +150,56 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello!</p>
-
             <p>
-              I’m Brandon, an experienced full stack engineer dedicated to creating web and mobile
-              apps with intuitive designs and dynamic user experiences. I have a long history of
-              successfully completing contracts and can hit the ground running on any new projects.
+              With over 8 years of experience in full stack development, I specialize in building
+              scalable web and mobile applications that drive real business impact. I've had the
+              privilege of working with industry leaders like Best Buy, where I've contributed to
+              applications serving over 250,000 daily users and helped generate millions in
+              additional revenue through innovative checkout solutions.
             </p>
 
-            <p>When I’m not writing code I love to go hiking and exploring outdoors. </p>
+            <p>
+              <strong>What I bring to the table:</strong>
+            </p>
+            <ul>
+              <li>
+                <strong>Cross-platform expertise</strong> – I build React Native solutions that work
+                seamlessly across web and mobile, including component libraries used across entire
+                organizations
+              </li>
+              <li>
+                <strong>Performance optimization</strong> – I've reduced bundle sizes by up to 80%
+                and successfully managed high-traffic applications processing 2,000+ orders per
+                minute
+              </li>
+              <li>
+                <strong>Strategic technical leadership</strong> – I've led architectural migrations
+                (Angular to React), built federated GraphQL systems, and turned around struggling
+                projects within tight deadlines
+              </li>
+              <li>
+                <strong>Business impact focus</strong> – My work has directly contributed to
+                millions in revenue, from creating new checkout flows to developing critical supply
+                chain analysis tools
+              </li>
+            </ul>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              I thrive in fast-paced environments where technical excellence meets business needs.
+              Whether it's architecting scalable solutions, optimizing performance, or leading
+              complex migrations, I'm passionate about building software that makes a difference.
+            </p>
+
+            <p>
+              Currently based in Boulder, CO, and open to remote opportunities where I can help
+              teams build exceptional digital experiences.
+            </p>
+
+            <p>
+              <strong>Let's connect!</strong> I'm always interested in discussing new challenges,
+              sharing insights about React/React Native development, or exploring how we can work
+              together.
+            </p>
           </div>
 
           <ul className="skills-list">
