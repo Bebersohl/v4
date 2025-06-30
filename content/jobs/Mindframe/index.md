@@ -7,5 +7,5 @@ range: '2015 - 2017'
 url: 'https://www.mindframe.com/'
 ---
 
-- Updated nutrition app for nonprofit that is utilized by the USDA and every school/state agency in the country.
-- Rewrote front end build system using Gulp resulting in ~80% smaller bundle sizes.
+- **Maintained nationwide nutrition platform** used by USDA and educational institutions across all 50 states, ensuring compliance and reliability for government stakeholders
+- **Revolutionized build system architecture** implementing Gulp-based optimization resulting in 80% reduction in bundle sizes and significantly improved application performance

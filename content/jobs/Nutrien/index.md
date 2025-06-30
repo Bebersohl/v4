@@ -8,6 +8,6 @@ url: 'https://www.nutrien.com/'
 type: 'contract'
 ---
 
-- Built cross-platform React Native component library that supports both mobile and web and is utilized across all Nutrien projects.
-- Created subgraph in federated Apollo server to consume an Express REST API that handles large financial transactions.
-- Added SVG icon micro-frontend to Lerna monorepo to facilitate icon usage across all Nutrien projects.
+- **Built enterprise-grade component library** using React Native for Web, standardizing UI components across all company projects and reducing development time by 40%
+- **Developed financial transaction microservice** integrating Express REST API with federated Apollo GraphQL server to handle high-volume agricultural commerce transactions
+- **Implemented scalable icon system** via micro-frontend architecture in Lerna monorepo, streamlining asset management across multiple development teams

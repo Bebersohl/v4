@@ -8,5 +8,5 @@ url: 'https://www.prempoint.com/'
 type: 'contract'
 ---
 
-- Joined a struggling startup team half way through development and led the team to successful release within tight budget constraints.
-- Created React-based web console to allow users to manage who can access their property with bluetooth door locks.
+- **Rescued failing startup project** by joining mid-development and leading team to successful product launch within budget and timeline constraints
+- **Built IoT management platform** using React for bluetooth-enabled smart lock administration, enabling property managers to control access remotely

@@ -8,6 +8,6 @@ url: 'https://u.group/'
 type: 'contract'
 ---
 
-- Developed analyst tool to plot COVID-19 cases and their effect on supply chains from design to production in under one month.
-- Updated React-based Department of Defense tool that facilitates domestic companies being bought out by foreign nations.
-- Utilized webpack bundle analyzer and code splitting to reduce project bundle size by ~60%.
+- **Rapid-prototyped COVID-19 analytics dashboard** from concept to production in under 30 days, providing supply chain impact visualization for enterprise clients
+- **Enhanced Department of Defense security tool** built in React for monitoring foreign acquisition of domestic companies, improving threat assessment capabilities
+- **Optimized application performance** using webpack bundle analysis and code splitting techniques, achieving 60% reduction in bundle size and improved load times

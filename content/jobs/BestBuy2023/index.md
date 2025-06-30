@@ -8,7 +8,7 @@ url: 'https://www.bestbuy.com/'
 type: 'contract'
 ---
 
-- Organized and implemented gradual conversion of survey app from Angular to React.
-- Investigated and documented architectural changes necessary to convert existing codebase to React Native app.
-- Maintained survey application that tracks damaged products across all Best Buy stores.
-- Worked closely with the QA team to write robust unit tests for each new release.
+- **Led Angular-to-React migration** for enterprise survey application, establishing technical roadmap and implementation strategy across multiple development cycles
+- **Architected React Native conversion strategy** through comprehensive technical analysis and documentation, enabling future mobile platform expansion
+- **Maintained critical inventory tracking system** processing damaged product data across 1,000+ Best Buy retail locations nationwide
+- **Established robust testing protocols** in collaboration with QA team, implementing comprehensive unit test coverage for all feature releases

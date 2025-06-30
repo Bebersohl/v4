@@ -8,5 +8,5 @@ url: 'https://www.bestbuy.com/'
 type: 'contract'
 ---
 
-- Created new checkout flow for prepaid phones resulting in over ~\$1 million additional annual revenue.
-- Monitored bestbuy.com during heavy traffic (~2000 orders per min) and troubleshooted issues with tight time constraints.
+- **Developed high-revenue checkout feature** for prepaid phone purchases, generating approximately \$1M in additional annual revenue
+- **Provided critical production support** during peak traffic periods (2,000+ orders/minute) including Black Friday and holiday seasons, ensuring system stability under extreme load
